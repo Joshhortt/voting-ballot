@@ -9,37 +9,48 @@
   </head>
   <body>
     <div class="container">
-      <div id="ballots">
-        <h1>Voting Ballot</h1>
+      <div class="form-group">
+        <h1>USA</h1>
+        <h2>Voting Polling Locations</h2>
+                <label for="stateName"> Mississipi State: </label>
+                <select class="form-control" id="ballots">
+                  <option value="00" id="choosePolling" placeholder="Choose">Choose</option>
+                  <option value="0">Jackson</option>
+                  <option value="1">Biloxi</option>
+                  <option value="2">Gulfport</option>
+                  <option value="3">Southaven</option>
+                </select>
 
-        <h2>Mississipi state</h2>
-        <ul>
-          <li>Jackson</li>
-          <li>Gulfport</li>
-          <li>Southaven</li>
-        </ul>
+                <label for="stateName"> Georgia State: </label>
+                <select class="form-control" id="ballots">
+                  <option value="00" id="choosePolling" placeholder="Choose">Choose</option>
+                  <option value="0">Atlanta</option>
+                  <option value="1">Savannah</option>
+                  <option value="2">Augusta</option>
+                  <option value="3">Columbus</option>
+                </select>
 
-        <h2>Georgia state</h2>
-        <ul>
-          <li>Atlanta</li>
-          <li>Augusta</li>
-          <li>Columbus</li>
-        </ul>
-      
-
-      <h2>  Washington state</h2>
-      <ul>
-        <li>Seattle</li>
-        <li>Spokane</li>
-        <li>Tacoma</li>
-      </ul>
-    </div>
+                <label for="stateName"> Washington State: </label>
+                <select class="form-control" id="ballots">
+                  <option value="00" id="choosePolling" placeholder="Choose">Choose</option>
+                  <option value="0">Seattle</option>
+                  <option value="1">Vancouver</option>
+                  <option value="2">Spokane</option>
+                  <option value="3">Tacoma</option>
+                </select>
+                <h5>The 2018 Election has passed.</h5>
+                <p class="runoff">For any runoff election information, please follow the links below:</p>
+                 <p> Mississippi Runoff Election - <a href="http://www.sos.ms.gov/pollingplace/pages/default.aspx" target="_blank" rel="noopener noreferrer">Mississippi polling place locator</a></p>
+                 <p>Georgia Runoff Election - <a href="https://www.mvp.sos.ga.gov/MVP/mvp.do" target="_blank" rel="noopener noreferrer">Georgia polling place locator.</a></p>
+                 <p class="reminder">You can sign up for reminders for future elections to register to vote, find your polling place and explore your ballot.</p>
+                 <button class="btn btn-primary" type="submit">Remind me!</button>
+        </div>
 
       <div id="under-18">
         <h1>Sorry, you are too young to vote.</h1>
         <p>If you are 17 or younger please see requirements to vote <a href="https://www.usa.gov/voting-laws">here</a>.</p>
       </div>
-      </div>
+    </div>
 
   </body>
 </html>
