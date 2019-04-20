@@ -1,4 +1,4 @@
-# VOTING ballot_
+# VOTING BALLOT
 
 _Keep practicing **Branching** - manipulating with certain conditions (Age)_,<br/>
 _for people who want to vote the next elections that are taking place in the US_.<br/>
