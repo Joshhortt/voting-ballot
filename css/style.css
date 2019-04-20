@@ -7,10 +7,30 @@ h1  {
   color: red;
 }
 
-#drinks, #under-18 {
+h2   {
+color: rgb(0, 53, 128);
+}
+
+h5  {
+  margin-top: 20px;
+  color: red;
+}
+
+.form-group  {
   display: none;
 }
 
-h2   {
-color: rgb(0, 53, 128);
+.runoff   {
+  font-weight: bold;
+}
+
+.reminder   {
+  color: rgb(0, 53, 128);
+  font-size: 0.75rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#under-18 {
+  display: none;
 }
